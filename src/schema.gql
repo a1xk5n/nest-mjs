@@ -1,0 +1,18 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type HelloDtoResponse {
+  title: String!
+}
+
+type Query {
+  getHello: HelloDtoResponse!
+}
+
+type Mutation {
+  uploadFile(file: Upload!): Boolean!
+}
+
+"""The `Upload` scalar type represents a file upload."""
+scalar Upload
